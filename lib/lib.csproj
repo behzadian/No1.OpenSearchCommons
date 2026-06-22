@@ -16,7 +16,7 @@
 		<Authors>Hank Benz</Authors>
 		<Company>No1</Company>
 		<Product>No1.OpenSearchCommons</Product>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>git@github.com:behzadian/No1.OpenSearchCommons.git</RepositoryUrl>
@@ -41,6 +41,7 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="No1.asp.NET.Commons" />
 		<PackageReference Include="OpenSearch.Net" />
 
 		<!-- StyleCop Analyzers -->
