@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="lib/lib.csproj" />
+  <Project Path="nest/nest.csproj" Id="04667986-076b-49ad-8fd3-d601113e7106" />
+</Solution>
