@@ -13,8 +13,7 @@ public static class OpenSearchExtensions
 	internal const string OpenSearchKey = nameof(OpenSearchKey);
 
 	public static void RegisterOpenSearchCertificateSignedHttpClient(this WebApplicationBuilder builder) {
-		using var loggerFactory = LoggerFactory.Create(logging =>
-		{
+		using var loggerFactory = LoggerFactory.Create(logging => {
 			logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
 			logging.AddConsole();
 		});

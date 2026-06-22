@@ -1,0 +1,1 @@
+For pre-commit execute: `git config core.hooksPath ./husky`
